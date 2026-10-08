@@ -5,3 +5,5 @@
 
 /* Keep interrupted historical years visible without an inner scroll area. */
 .year-list{max-height:none;overflow:visible;padding-right:0}.month-cell{display:grid;place-items:center;height:24px;font-size:10px;color:#456352}.month-cell.deducted{background:#d3914f;color:#fff;font-weight:700}.deduct-dot{background:#d3914f}.year-deduction{color:#ad6e30}@media(max-width:760px){.month-cell{height:20px;font-size:8px}.year-row{gap:6px;grid-template-columns:36px minmax(0,1fr) 100px}.year-blocks{gap:2px}}
+
+.display-label{display:block;font-size:12px;color:var(--muted);margin-bottom:7px}.display-value{display:block;font-size:16px;padding:11px 0}.date-grid small{display:block}
